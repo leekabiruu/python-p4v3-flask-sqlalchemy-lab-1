@@ -17,4 +17,4 @@ with app.app_context():
     db.session.add(Earthquake(magnitude=8.4, location="Chile", year=1922))
 
     # Commit the transaction
-    db.session.commit()
+    db.session.commit() 
